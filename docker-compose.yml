@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  dispatcher-pub:
+    build: .
+    container_name: dispatcher_author
+    ports:
+      - "8081:80"
